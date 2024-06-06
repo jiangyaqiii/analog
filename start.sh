@@ -22,7 +22,7 @@ fi
 
 docker pull analoglabs/timechain
 
-read -p "请输入节点名字: " your_node_name
+# read -p "请输入节点名字: " your_node_name
 node_name="$your_node_name"
 docker run -d -p 9944:9944 -p 30303:30303 --name analog analoglabs/timechain \
   --base-path /data \
