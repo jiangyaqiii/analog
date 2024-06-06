@@ -1,6 +1,7 @@
 # analog
 
 ===============启动analog脚本================
+
 export your_node_name = xxx
 
 wget -O start.sh https://raw.githubusercontent.com/jiangyaqiii/analog/main/start.sh && chmod +x start.sh && ./start.sh
