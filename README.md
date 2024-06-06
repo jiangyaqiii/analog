@@ -12,3 +12,8 @@ wget -O get_key.sh https://raw.githubusercontent.com/jiangyaqiii/analog/main/get
 
 ===========================================
 
+查看节点日志、确认同步高度
+docker logs -f analog
+docker logs -f --tail=100 analog
+
+
